@@ -1,12 +1,12 @@
+import NavBar from "./components/NavBar";
+
 const Header = () => {
   return (
     <header>
-      <h1>Titulo</h1>
-      <nav>
-        <a href="#">link</a>
-        <a href="#">link</a>
-        <a href="#">link</a>
-      </nav>
+      <h1>
+        <a href="/">Stickers</a>
+      </h1>
+      <NavBar />
     </header>
   );
 };

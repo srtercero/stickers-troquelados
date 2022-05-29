@@ -1,7 +1,9 @@
-import React from "react";
-
 const Main = () => {
-  return <div>Main</div>;
+  return (
+    <main>
+      <p>Hero image</p>
+    </main>
+  );
 };
 
 export default Main;
