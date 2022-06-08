@@ -7,8 +7,8 @@ const App = () => {
   return (
     <>
       <Header />
-      <ItemListContainer greeting="Bienvenido a Stickers" />
       <Main />
+      <ItemListContainer greeting="Bienvenido a Stickers" />
       <Footer />
     </>
   );
