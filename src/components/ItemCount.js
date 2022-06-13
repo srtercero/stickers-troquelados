@@ -5,14 +5,14 @@ const ItemCount = () => {
   const contador = cantidad[0];
   const setContador = cantidad[1]; */ // Esto es lo mismo que lo de abajo
 
-  const [cantidad, setCantidad] = useState(0);
+  const [cantidad, setCantidad] = useState(10);
 
   const sumarCantidad = () => {
-    setCantidad(cantidad + 1);
+    if (cantidad < 30) setCantidad(cantidad + 1);
   };
 
   const restarCantidad = () => {
-    if (cantidad > 0) setCantidad(cantidad - 1);
+    if (cantidad > 10) setCantidad(cantidad - 1);
   };
 
   return (
