@@ -1,10 +1,18 @@
-import ItemCount from "./ItemCount";
+import { useState, useEffect } from "react";
+import customFetch from "./Promise";
+import ProductList from "./ProductList";
+import ItemList from "./ItemList";
 
 const ItemListContainer = (props) => {
+  const [items, setItems] = useState([]);
+
+  useEffect(() => {
+    customFetch(2000, ProductList).then((res) => setItems(res));
+  }, [items]);
   return (
     <>
-      <h2>{props.greeting}</h2>
-      <ItemCount />
+      <h3>{props.greeting}</h3>
+      <ItemList ProductList={items} />
     </>
   );
 };

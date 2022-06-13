@@ -1,9 +1,5 @@
 const Main = () => {
-  return (
-    <main>
-      <p>Hero image</p>
-    </main>
-  );
+  return <main>{/* <p className="bg">Hero image</p> */}</main>;
 };
 
 export default Main;

@@ -17,7 +17,6 @@ const ItemCount = () => {
 
   return (
     <>
-      <p>Cantidad</p>
       <button onClick={restarCantidad}>-</button>
       <span>{cantidad}</span>
       <button onClick={sumarCantidad}>+</button>

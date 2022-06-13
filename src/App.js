@@ -8,7 +8,7 @@ const App = () => {
     <>
       <Header />
       <Main />
-      <ItemListContainer greeting="Bienvenido a Stickers" />
+      <ItemListContainer greeting="Productos destacados" />
       <Footer />
     </>
   );
