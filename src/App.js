@@ -1,7 +1,8 @@
-import Header from "../src/components/Header";
-import ItemListContainer from "../src/components/ItemListContainer";
-import Main from "../src/components/Main";
-import Footer from "../src/components/Footer";
+import Header from "../src/components/header/Header";
+import ItemListContainer from "../src/pdp/ItemListContainer";
+import ItemDetailContainer from "../src/pdp/ItemDetailContainer";
+import Main from "./components/home/Main";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Header />
       <Main />
       <ItemListContainer greeting="Productos destacados" />
+      <ItemDetailContainer />
       <Footer />
     </>
   );

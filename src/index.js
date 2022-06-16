@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 
-import "./styles.scss";
+import "./styles/styles.scss";
 
 //Agarrar una app que ya exista de REACT
 /*function App() {
